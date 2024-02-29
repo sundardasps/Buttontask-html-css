@@ -18,6 +18,7 @@ nav div {
   color: white;
   width: 20vh;
   height: 4vh;
+  text-transform: capitalize;
 }
 
 section {
@@ -32,24 +33,24 @@ section button {
   cursor: pointer;
 }
 
-.red {
+.Red {
   background-color: red;
   color: white;
   border-radius: 5px;
   border: none;
 }
 
-.red:hover {
+.Red:hover {
   background-color: rgb(214, 101, 101);
 }
 
-.green {
+.Green {
   background-color: rgb(59, 186, 72);
   border-radius: 5px;
   color: white;
   border: none;
 }
 
-.green:hover {
+.Green:hover {
   background-color: rgb(50, 150, 60);
 }
