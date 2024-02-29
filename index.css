@@ -1,0 +1,55 @@
+* {
+  padding: 1%;
+}
+
+nav {
+  width: auto;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+nav div {
+  text-align: center;
+  border-radius: 5px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  width: 20vh;
+  height: 4vh;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+section button {
+  width: 80px;
+  cursor: pointer;
+}
+
+.red {
+  background-color: red;
+  color: white;
+  border-radius: 5px;
+  border: none;
+}
+
+.red:hover {
+  background-color: rgb(214, 101, 101);
+}
+
+.green {
+  background-color: rgb(59, 186, 72);
+  border-radius: 5px;
+  color: white;
+  border: none;
+}
+
+.green:hover {
+  background-color: rgb(50, 150, 60);
+}
