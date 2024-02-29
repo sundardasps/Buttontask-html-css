@@ -1,8 +1,9 @@
 * {
   padding: 1%;
+  color: #fff;
 }
 
-nav {
+.container {
   width: auto;
   height: 100px;
   display: flex;
@@ -11,31 +12,29 @@ nav {
   gap: 10px;
 }
 
-nav div {
+.container div {
   text-align: center;
   border-radius: 5px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color: white;
   width: 20vh;
   height: 4vh;
   text-transform: capitalize;
 }
 
-section {
+.button-container {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 10px;
 }
 
-section button {
+.button-container button {
   width: 80px;
   cursor: pointer;
 }
 
 .Red {
   background-color: red;
-  color: white;
   border-radius: 5px;
   border: none;
 }
@@ -47,7 +46,6 @@ section button {
 .Green {
   background-color: rgb(59, 186, 72);
   border-radius: 5px;
-  color: white;
   border: none;
 }
 
